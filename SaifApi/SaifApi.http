@@ -1,0 +1,6 @@
+@SaifApi_HostAddress = http://localhost:5062
+
+GET {{SaifApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
