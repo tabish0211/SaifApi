@@ -54,7 +54,7 @@ namespace SaifApi.Controllers
             var User = _context.Users.FirstOrDefault(x => x.UserId == userId);
             if (User is not null)
             {
-                User.Name = user.Name;
+                User.Email = user.Email;
                 _context.SaveChanges();
 
             }

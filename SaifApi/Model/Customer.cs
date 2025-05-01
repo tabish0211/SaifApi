@@ -9,9 +9,9 @@
 
     public class User
     {
-        public string UserId { get; set; }
-        public string Name { get; set; }
-        public string Skills { get; set; }
-        public int Age { get; set; }
+        public string UserId { get; set; }        
+        public string Email { get; set; }
+        public string Password { get; set; }     
+        public string Role { get; set; }
     }
 }
